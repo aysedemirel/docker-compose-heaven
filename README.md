@@ -12,3 +12,8 @@ Docker-compose.yml for tools
 `docker pull confluentinc/cp-kafka-rest`
 `docker pull obsidiandynamics/kafdrop`
 `docker-compose -f docker-compose_kafka.yml up -d`
+
+## TRAEFIK
+`docker pull traefik`
+`docker pull traefik/whoami`
+`docker-compose -f docker-compose_traefik.yml up -d`
